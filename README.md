@@ -1,20 +1,23 @@
 # CS_F222_Project
 Project prepared for the course Discrete Structures for Computer Science Fall 2023
 
+## Requirements
+- Python 3.7 or above
+- numpy
+
 ## Usage
 
 1. **Input File:**
    - Create an input file named `input.txt` with the following format:
-     - The first line contains a space-separated list of CDCs (Common Disciplinary Courses).
+     - The first line contains a space-separated list of CDCs (Compulsory Disciplinary Courses).
      - The second line contains a space-separated list of electives.
      - Subsequent lines contain preferences of each professor, where each line corresponds to a professor's preferences.
 
 2. **Run the Script:**
    - Execute the script by running the command:
      ```bash
-     python script_name.py
+     python main.py
      ```
-     Make sure to replace `script_name.py` with the actual name of your Python script.
 
 3. **Output:**
    - The script will generate an output file named `output.txt` containing the assignments for each solution.
@@ -39,3 +42,13 @@ Elective1 Elective2 ... Electivek
 Prof1_Pref1 Prof1_Pref2 ... Prof1_Prefm
 Prof2_Pref1 Prof2_Pref2 ... Prof2_Prefp
 ...
+```
+
+### Output File ('output.txt')
+The output file will contain the assignments in a dictionary format for each solution:
+```plaintext
+{'x1': {'Prof 1': ['Course1'], 'Prof 2': ['Course2', 'Course3'], ...},
+ 'x2': {'Prof 3': ['Course4', 'Course5'], 'Prof 4': ['Course6', 'Course7'], ...},
+ 'x3': {'Prof 5': ['Course8', 'Course9', 'Course10'], ...},
+ ...}
+```
