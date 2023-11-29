@@ -1,4 +1,4 @@
-# CS_F222_Project
+# Professor-Assignment Problem
 Project prepared for the course Discrete Structures for Computer Science Fall 2023
 
 ## Requirements
@@ -45,7 +45,9 @@ Prof2_Pref1 Prof2_Pref2 ... Prof2_Prefp
 ```
 
 ### Output File ('output.txt')
+
 The output file will contain the assignments in a dictionary format for each solution:
+
 ```plaintext
 {'x1': {'Prof 1': ['Course1'], 'Prof 2': ['Course2', 'Course3'], ...},
  'x2': {'Prof 3': ['Course4', 'Course5'], 'Prof 4': ['Course6', 'Course7'], ...},
