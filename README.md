@@ -56,3 +56,4 @@ The output file will contain the assignments in a dictionary format for each sol
  'x3': {'Prof 5': ['Course8', 'Course9', 'Course10'], ...},
  ...}
 ```
+Note: A professor being assigned two of the same course means that that professor will be taking the entire course
