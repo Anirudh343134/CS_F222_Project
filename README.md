@@ -44,6 +44,8 @@ Prof2_Pref1 Prof2_Pref2 ... Prof2_Prefp
 ...
 ```
 
+Note: There shouldn't be any blank spaces after each line
+
 ### Output File ('output.txt')
 
 The output file will contain the assignments in a dictionary format for each solution:
